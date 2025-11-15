@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- css file link-->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- media file -->
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Games website</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+
+    <nav
+      class="navbar navbar-expand-lg position-fixed top-0 start-0 end-0 z-3 pe-lg-5"
+    >
+      <div class="container-fluid">
+        <div class="logo ps-lg-4">
+          <i class="fa-solid fa-gamepad text-color p-lg-1"></i>
+          <span class="text-color"> GameArena</span>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ps-3 me-auto mb-3 mt-xs-4 mt-lg-1 mb-lg-0">
+            <li class="nav-item pe-lg-3">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pe-lg-3">
+              <a class="nav-link text-light" href="#our-games">OUR GAMES</a>
+            </li>
+            <li class="nav-item pe-lg-3">
+              <a class="nav-link text-light" href="#what-we-do">What We Do</a>
+            </li>
+            <li class="nav-item pe-lg-3">
+              <a class="nav-link text-light" href="#our-team"> Our Team</a>
+            </li>
+            <li class="nav-item pe-lg-3">
+              <a class="nav-link text-light" href="#contact-us"> Contact Us</a>
+            </li>
+          </ul>
+          <form
+            class="d-lg-flex align-items-lg-center ps-3 text-light"
+            role="search"
+          >
+            <div class="notification">
+              <i class="fa-regular fa-bell pe-3"></i>
+              <span class="d-lg-none">Notifications</span>
+            </div>
+            <div class="messages">
+              <i class="fa-regular fa-message pe-3"></i>
+
+              <span class="d-lg-none">Messages</span>
+            </div>
+
+            <div class="sign-in mt-2">
+              <button>Sign In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="pb-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center mt-5 pt-5">
+          <div class="home-caption col-lg-6 mt-5">
+            <h1 class="text-4xl font-bold mb-3">
+              THE ULTIMATE
+              <span class="text-color d-block">GAMING</span> EXPERIENCE
+            </h1>
+            <p>
+              Join millions of gamers worldwide in the most competitive eSports
+              tournaments. Experience next-level gaming with cutting-edge
+              technology and endless possibilities.
+            </p>
+            <div
+              class="btns d-lg-flex d-md-flex justify-content-md-center justify-content-lg-start align-items-md-center"
+            >
+              <div class="start-btn col-lg-5 me-md-3">
+                <button>Start Gaming Now</button>
+              </div>
+              <div class="watch-btn mt-md-3 mt-lg-0 col-md-3 col-lg-5">
+                <button class="text-color">Watch tournaments</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-lg-5 position-relative z-1">
+            <div class="home-image mt-lg-3 p-1">
+              <img src="images/hero-img.png" class="img-fluid" alt="multiple mentors" />
+            </div>
+
+            <div
+              class="active-players position-absolute d-flex align-items-center justify-content-evenly"
+            >
+              <i class="fa-solid fa-trophy text-color"></i>
+
+              <div class="players-info">
+                <span class="d-block info">Active Players</span>
+                <span class="d-block number text-light">2.5M+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-games" class="pt-5 pb-5">
+      <div class="container-fluid">
+        <div class="heading text-center">
+          <span class="text-color title">OUR GAMES</span>
+          <h2 class="mt-2">Our Latest Games</h2>
+        </div>
+
+        <div
+          id="carouselExample"
+          class="carousel slide mt-5 d-lg-none d-md-none"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="item">
+                <img
+                  src="images/latest-games-1.png"
+                  class="d-block w-100"
+                  alt="two green aliens "
+                />
+                <div class="layout">
+                  <span class="alien">Alien Companions</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-gamepad text-color p-lg-1"></i>
+                      <span>ADVENTURE</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-users text-color p-lg-1"></i>
+                      <span>MULTIPLAYER</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-2.png"
+                  class="d-block rounded-3 w-100"
+                  alt="red hover car racing"
+                />
+                <div class="layout">
+                  <span class="alien">Cyber Run 2099</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i
+                        class="fa-solid fa-flag-checkered text-color p-lg-1"
+                      ></i>
+
+                      <span>RACING</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-bolt text-color p-lg-1"></i>
+
+                      <span>SCI-FI</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-3.png"
+                  class="d-block rounded-3 w-100"
+                  alt="massive alien mothership hovering over a lush green planet with smaller ships flying around it"
+                />
+                <div class="layout">
+                  <span class="alien"
+                    >The Legend of Zelda: Tears of the Kingdom</span
+                  >
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-brands fa-discord text-color p-lg-1"></i>
+
+                      <span>ACTION</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-microchip text-color p-lg-1"></i>
+
+                      <span>GEFORCE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-4.png"
+                  class="d-block rounded-3 w-100"
+                  alt="a knight in glowing futuristic armor standing on a cliff overlooking a fantasy landscape with floating islands"
+                />
+                <div class="layout">
+                  <span class="alien">Aetheria Chronicles</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i
+                        class="fa-solid fa-shield-halved text-color p-lg-1"
+                      ></i>
+
+                      <span>RPG</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i
+                        class="fa-solid fa-wand-magic-sparkles text-color p-lg-1"
+                      ></i>
+
+                      <span>FANTASY</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-5.png"
+                  class="d-block rounded-3 w-100"
+                  alt="a team of soldiers in tactical gear in a war-torn futuristic city"
+                />
+                <div class="layout">
+                  <span class="alien">Warfront Protocol</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i
+                        class="fa-solid fa-shield-halved text-color p-lg-1"
+                      ></i>
+
+                      <span>SHOOTER</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-user-friends text-color p-lg-1"></i>
+
+                      <span>CO-OP</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-6.png"
+                  class="d-block rounded-3 w-100"
+                  alt="footballer"
+                />
+                <div class="layout">
+                  <span class="alien">Shot Striker</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-dragon text-color p-lg-1"></i>
+
+                      <span>FOOTBALL</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-star text-color p-lg-1"></i>
+
+                      <span>FANTASY</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-7.png"
+                  class="d-block rounded-3 w-100"
+                  alt="..."
+                />
+                <div class="layout">
+                  <span class="alien">Barren alien worlds</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-trophy text-color p-lg-1"></i>
+
+                      <span>SPORTS</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-fire text-color p-lg-1"></i>
+
+                      <span>LEAGUE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-8.png"
+                  class="d-block rounded-3 w-100"
+                  alt="massive alien mothership hovering over a lush green planet with smaller ships flying around it"
+                />
+                <div class="layout">
+                  <span class="alien">Barren alien worlds</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-rocket text-color p-lg-1"></i>
+
+                      <span>SPACE</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-globe text-color p-lg-1"></i>
+
+                      <span>EXPLORATION</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="item">
+                <img
+                  src="images/latest-games-9.png"
+                  class="d-block rounded-3 w-100"
+                  alt="a knight in glowing futuristic armor standing on a cliff overlooking a fantasy landscape with floating islands"
+                />
+                <div class="layout">
+                  <span class="alien">Cloveland Quest</span>
+                  <div class="badges d-flex align-items-start">
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-hat-wizard text-color p-lg-1"></i>
+
+                      <span>ACTION</span>
+                    </div>
+                    <div class="badge-item ms-2 d-flex align-items-center">
+                      <i class="fa-solid fa-dungeon text-color p-lg-1"></i>
+
+                      <span>FUTURISTIC</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="indicators d-flex justify-content-center align-items-center flex-wrap mt-5"
+          >
+            <button
+              class="carousel-control-prev position-static text-center me-2"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon d-flex align-items-center justify-content-center"
+                aria-hidden="true"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next position-static text-center"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon d-flex align-items-center justify-content-center"
+                aria-hidden="true"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button class="view-all text-color ms-md-4 ms-lg-4">
+              View All Games
+            </button>
+          </div>
+        </div>
+        <div
+          id="carouselExample2"
+          class="carousel middle-range d-lg-none d-md-block slide mt-5"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Alien Companions</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-gamepad text-color p-lg-1"></i>
+                          <span>ADVENTURE</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-users text-color p-lg-1"></i>
+                          <span>MULTIPLAYER</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-2.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Cyber Run 2099</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-flag-checkered text-color p-lg-1"
+                          ></i>
+
+                          <span>RACING</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-bolt text-color p-lg-1"></i>
+
+                          <span>SCI-FI</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-4.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Aetheria Chronicles</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-shield-halved text-color p-lg-1"
+                          ></i>
+
+                          <span>RPG</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-wand-magic-sparkles text-color p-lg-1"
+                          ></i>
+
+                          <span>FANTASY</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-5.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Warfront Protocol</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-shield-halved text-color p-lg-1"
+                          ></i>
+
+                          <span>SHOOTER</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-user-friends text-color p-lg-1"
+                          ></i>
+
+                          <span>CO-OP</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-6.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Shot Striker</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-dragon text-color p-lg-1"></i>
+
+                          <span>FOOTBALL</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-star text-color p-lg-1"></i>
+
+                          <span>FANTASY</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-7.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Barren alien worlds</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-trophy text-color p-lg-1"></i>
+
+                          <span>SPORTS</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-fire text-color p-lg-1"></i>
+
+                          <span>LEAGUE</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-8.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Barren alien worlds</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-rocket text-color p-lg-1"></i>
+
+                          <span>SPACE</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-globe text-color p-lg-1"></i>
+
+                          <span>EXPLORATION</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-9.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Cloveland Quest</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-hat-wizard text-color p-lg-1"
+                          ></i>
+
+                          <span>ACTION</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-dungeon text-color p-lg-1"></i>
+
+                          <span>FUTURISTIC</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="indicators d-flex justify-content-center align-items-center flex-wrap mt-5"
+          >
+            <button
+              class="carousel-control-prev position-static text-center me-2"
+              type="button"
+              data-bs-target="#carouselExample2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon d-flex align-items-center justify-content-center"
+                aria-hidden="true"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next position-static text-center"
+              type="button"
+              data-bs-target="#carouselExample2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon d-flex align-items-center justify-content-center"
+                aria-hidden="true"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button class="view-all text-color ms-md-4 ms-lg-4">
+              View All Games
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="carouselExample3"
+          class="carousel middle-range d-lg-block d-md-none slide mt-5"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Alien Companions</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-gamepad text-color p-lg-1"></i>
+                          <span>ADVENTURE</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-users text-color p-lg-1"></i>
+                          <span>MULTIPLAYER</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-2.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Cyber Run 2099</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-flag-checkered text-color p-lg-1"
+                          ></i>
+
+                          <span>RACING</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-bolt text-color p-lg-1"></i>
+
+                          <span>SCI-FI</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-3.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien"
+                        >The Legend of Zelda: Tears of the Kingdom</span
+                      >
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-brands fa-discord text-color p-lg-1"></i>
+
+                          <span>ACTION</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-microchip text-color p-lg-1"
+                          ></i>
+
+                          <span>GEFORCE</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-4.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Aetheria Chronicles</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-shield-halved text-color p-lg-1"
+                          ></i>
+
+                          <span>RPG</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-wand-magic-sparkles text-color p-lg-1"
+                          ></i>
+
+                          <span>FANTASY</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-5.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Warfront Protocol</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-shield-halved text-color p-lg-1"
+                          ></i>
+
+                          <span>SHOOTER</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-user-friends text-color p-lg-1"
+                          ></i>
+
+                          <span>CO-OP</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-6.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Shot Striker</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-dragon text-color p-lg-1"></i>
+
+                          <span>FOOTBALL</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-star text-color p-lg-1"></i>
+
+                          <span>FANTASY</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-7.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Barren alien worlds</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-trophy text-color p-lg-1"></i>
+
+                          <span>SPORTS</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-fire text-color p-lg-1"></i>
+
+                          <span>LEAGUE</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-8.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Barren alien worlds</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-rocket text-color p-lg-1"></i>
+
+                          <span>SPACE</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-globe text-color p-lg-1"></i>
+
+                          <span>EXPLORATION</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="item">
+                    <img
+                      src="images/latest-games-9.png"
+                      class="d-block rounded-3 w-100"
+                      alt="..."
+                    />
+                    <div class="layout">
+                      <span class="alien">Cloveland Quest</span>
+                      <div class="badges d-flex align-items-start">
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i
+                            class="fa-solid fa-hat-wizard text-color p-lg-1"
+                          ></i>
+
+                          <span>ACTION</span>
+                        </div>
+                        <div class="badge-item ms-2 d-flex align-items-center">
+                          <i class="fa-solid fa-dungeon text-color p-lg-1"></i>
+
+                          <span>FUTURISTIC</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="indicators d-flex justify-content-center align-items-center flex-wrap mt-5"
+          >
+            <button
+              class="carousel-control-prev position-static text-center me-2"
+              type="button"
+              data-bs-target="#carouselExample3"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon d-flex align-items-center justify-content-center"
+                aria-hidden="true"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next position-static text-center"
+              type="button"
+              data-bs-target="#carouselExample3"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon d-flex align-items-center justify-content-center"
+                aria-hidden="true"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button class="view-all text-color ms-md-4 ms-lg-4">
+              View All Games
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- what we do secion -->
+    <section id="what-we-do" class="pt-5 pb-5 ps-lg-5 pe-lg-5">
+      <div class="heading text-center mt-5">
+        <span class="text-color title">WHAT WE DO</span>
+        <h2 class="mt-2">More Than Just Games</h2>
+        <p class="second-color">
+          We Build <span class="text-color">Interactive</span> Journeys
+        </p>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row mt-5 gy-4">
+          <div class="col-6 col-lg-3">
+            <div
+              class="do-item item-hover p-5 text-center d-flex justify-content-center"
+            >
+              <div>
+                <span
+                  class="p-3 mt-3 d-flex justify-content-center align-items-center"
+                >
+                  <i class="text-color fa-solid fa-desktop"></i>
+                </span>
+                <h4 class="mt-3">PC Game Development</h4>
+              </div>
+              <div class="top-border"></div>
+              <div class="bottom-border"></div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div
+              class="do-item item-hover p-5 text-center d-flex flex-column align-items-center"
+            >
+              <div>
+                <span
+                  class="p-3 mt-3 d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-mobile-screen-button text-color"></i>
+                </span>
+                <h4 class="mt-3">Mobile Game Development</h4>
+              </div>
+              <div class="top-border"></div>
+              <div class="bottom-border"></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="do-item text-center">
+              <img src="images/what-we-do-1.png" class="d-block" alt="two vibrant lime green gaming controllers floating against a matching lime green background, studio lighting, product shot" />
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div
+              class="do-item item-hover p-5 text-center d-flex flex-column align-items-center"
+            >
+              <div>
+                <span
+                  class="p-3 mt-3 d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-vr-cardboard text-color"></i>
+                </span>
+                <h4 class="mt-3">AR/VR Solutions</h4>
+              </div>
+              <div class="top-border"></div>
+              <div class="bottom-border"></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div
+              class="do-item item-hover p-5 text-center d-flex flex-column align-items-center"
+            >
+              <div>
+                <span
+                  class="p-3 mt-3 d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-cubes text-color"></i>
+                </span>
+                <h4 class="mt-4">AR/VR Design</h4>
+              </div>
+              <div class="top-border"></div>
+              <div class="bottom-border"></div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="do-item text-center">
+              <img src="images/what-we-do-2.png" alt="3D stylized cartoon character, a male superhero in a green and white suit, smiling and holding a green tomato bomb, dynamic pose, vibrant green background" />
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div
+              class="do-item item-hover p-5 text-center d-flex flex-column align-items-center"
+            >
+              <div>
+                <span
+                  class="p-3 mt-3 d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-brands fa-playstation text-color"></i>
+                </span>
+                <h4 class="mt-4">PS4 Game Development</h4>
+              </div>
+              <div class="top-border"></div>
+              <div class="bottom-border"></div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div
+              class="do-item item-hover p-5 text-center d-flex flex-column align-items-center"
+            >
+              <div>
+                <span
+                  class="p-3 mt-3 d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-cube text-color"></i>
+                </span>
+                <h4 class="mt-4">3D Modelings</h4>
+              </div>
+              <div class="top-border"></div>
+              <div class="bottom-border"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="empty mt-5"></div>
+      </div>
+    </section>
+
+    <!-- animation section -->
+    <section id="animated-items" class="pt-5">
+      <div class="container-fluid">
+        <div class="spinner">
+          <div class="left-spinner d-flex">
+            <div class="wrapper-left d-flex gap-3 p-3">
+              <div class="items text-center">
+                <img src="images/logo-1.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-2.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-3.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-4.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-5.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-6.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-7.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-8.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-9.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-10.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-11.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-12.jpg" alt="game logo" />
+              </div>
+            </div>
+            <div class="wrapper-left d-flex gap-3 p-3" aria-hidden>
+              <div class="items text-center">
+                <img src="images/logo-1.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-2.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-3.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-4.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-5.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-6.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-7.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-8.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-9.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-10.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-11.jpg" alt="game logo" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-12.jpg" alt="game logo" />
+              </div>
+            </div>
+          </div>
+
+          <div class="right-spin d-flex">
+            <div class="wrapper-right d-flex gap-3 p-3">
+              <div class="items text-center">
+                <img src="images/logo-1.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-2.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-3.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-4.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-5.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-6.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-7.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-8.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-9.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-10.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-11.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-12.jpg" alt="" />
+              </div>
+            </div>
+            <div class="wrapper-right d-flex gap-3 p-3" aria-hidden>
+              <div class="items text-center">
+                <img src="images/logo-1.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-2.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-3.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-4.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-5.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-6.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-7.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-8.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-9.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-10.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-11.jpg" alt="" />
+              </div>
+              <div class="items text-center">
+                <img src="images/logo-12.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+
+    <section id="our-team" class="pt-5 pb-5 ps-lg-5 pe-lg-5">
+      <div class="heading text-center mt-5">
+        <span class="text-color title">OUR TEAM</span>
+        <h2 class="mt-2">Our Best Team Members</h2>
+        <p class="second-color">
+          Meet the professional gamers and experts behind our success
+        </p>
+      </div>
+      <div class="container-fluid">
+        <div class="row mt-5 gy-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-1.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute"
+              >
+                <div class="member-info">
+                  <h3>Alex "Phantom" Chen</h3>
+                  <span class="d-block text-color">Pro Player - VALORANT</span>
+                  <span class="second-color">World Champion 2023</span>
+                </div>
+                <div class="member-title">
+                  <span>PHANTOM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-2.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>Ali "Nova" Ahmed</h3>
+                  <span class="d-block text-color"
+                    >Pro Player - League of Legends</span
+                  >
+                  <span class="second-color">MVP 2023 Season</span>
+                </div>
+                <div class="member-title">
+                  <span>NOVA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-3.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>Marcus "Viper" Rodriguez</h3>
+                  <span class="d-block text-color">Head Coach - CS:GO</span>
+                  <span class="second-color">5x Major Winner</span>
+                </div>
+                <div class="member-title">
+                  <span>VIPER</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-4.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>Seif "Saga" Usama</h3>
+                  <span class="d-block text-color">Strategic Analyst</span>
+                  <span class="second-color">Data Science Expert</span>
+                </div>
+                <div class="member-title">
+                  <span>SAGA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-5.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>Jake "Storm" Wilson</h3>
+                  <span class="d-block text-color"
+                    >Pro Player - Apex Legends</span
+                  >
+                  <span class="second-color">Rising Star 2023</span>
+                </div>
+                <div class="member-title">
+                  <span>STORM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-6.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>David "Titan" Park</h3>
+                  <span class="d-block text-color">Team Captain - Dota 2</span>
+                  <span class="second-color">The International Winner</span>
+                </div>
+                <div class="member-title">
+                  <span>TITAN</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-7.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>Khaled "Phoenix" Ali</h3>
+                  <span class="d-block text-color">Content Creator</span>
+                  <span class="second-color">2M+ Followers</span>
+                </div>
+                <div class="member-title">
+                  <span>PHOENIX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="team-member position-relative">
+              <img src="images/avatar-8.png" class="w-100" alt="male esports player portrait" />
+
+              <div
+                class="team-info w-100 ps-3 pe-3 d-flex justify-content-between justify-content-lg-around justify-content-md-around position-absolute align-items-center"
+              >
+                <div class="member-info">
+                  <h3>Ryan "Ghost" Miller</h3>
+                  <span class="d-block text-color">Team Manager</span>
+                  <span class="second-color">Operations Lead</span>
+                </div>
+                <div class="member-title">
+                  <span>GHOST</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact us Section -->
+    <section id="contact-us" class="pt-5 pb-5 ps-lg-5 pe-lg-5">
+      <div class="heading text-center">
+        <span class="title text-color">CONTACT US</span>
+        <h2 class="mt-2">Get In Touch</h2>
+        <p class="second-color">
+          Have questions or need support? We're here to help!
+        </p>
+      </div>
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-lg-6 mt-3">
+            <div class="contact-item d-flex align-items-center">
+              <div class="contact-item-icon text-center position-relative me-3">
+                <i class="fa-solid fa-location-dot position-absolute"></i>
+              </div>
+
+              <div class="item-title col-lg-7 mt-3">
+                <h4>Our Location</h4>
+                <p class="second-color">
+                  123 Gaming Street, Esports City, EC 12345
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex align-items-center mt-4">
+              <div class="contact-item-icon text-center position-relative me-3">
+                <i class="fa-solid fa-phone position-absolute"></i>
+              </div>
+
+              <div class="item-title col-lg-7 mt-3">
+                <h4>Phone Number</h4>
+                <p class="second-color">+1 (555) 123-4567</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex align-items-center mt-4">
+              <div class="contact-item-icon text-center position-relative me-3">
+                <i class="fa-solid fa-envelope position-absolute"></i>
+              </div>
+
+              <div class="item-title col-lg-7 mt-3">
+                <h4>Email Address</h4>
+                <p class="second-color">contact@gamearena.com</p>
+              </div>
+            </div>
+            <div class="contact-item different mt-4">
+              <div class="item-title mt-3">
+                <h4>Join Our Community</h4>
+                <p class="second-color">
+                  Connect with us on social media for the latest updates
+                </p>
+              </div>
+              <div class="social-media d-flex">
+                <div
+                  class="icon-item me-3 d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-discord"></i>
+                </div>
+                <div
+                  class="icon-item me-3 d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-x-twitter"></i>
+                </div>
+                <div
+                  class="icon-item me-3 d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div
+                  class="icon-item me-3 d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="contact-form">
+              <h5>Send us a Message</h5>
+              <form action="">
+                <div class="row">
+                  <div class="mb-3 col-md-6 col-lg-6">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >First Name</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="exampleFormControlInput1"
+                      id="exampleFormControlInput1"
+                      placeholder="Your First Name"
+                    />
+                  </div>
+                  <div class="mb-3 col-md-6 col-lg-6">
+                    <label for="exampleFormControlInput2" class="form-label"
+                      >Last Name</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="exampleFormControlInput2"
+                      id="exampleFormControlInput2"
+                      placeholder="Your Last Name"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlInput3" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="exampleFormControlInput3"
+                    id="exampleFormControlInput3"
+                    placeholder="Your.email@example.com"
+                  />
+                </div>
+                <div class="mt-3">
+                  <label for="select-subject">Subject</label>
+                  <select
+                    class="form-select"
+                    id="select-subject"
+                    name="select-subject"
+                    aria-label="Default select example"
+                  >
+                    <option selected>General Inquiry</option>
+                    <option value="Tournament Support">
+                      Tournament Support
+                    </option>
+                    <option value="Technical Issu">Technical Issue</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="Media Request">Media Request</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                    placeholder="Tell us hoe we can help you...."
+                  ></textarea>
+                </div>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="true"
+                    name="checkDefault"
+                    id="checkDefault"
+                  />
+                  <label class="form-check-label" for="checkDefault">
+                    Subscribe to our newsletter for gaming updates
+                  </label>
+                </div>
+                <div class="send-message mt-3">
+                  <button>
+                    Send Message <i class="fa-solid fa-paper-plane ml-2"></i>
+                  </button>
+                </div>
+              </form>
+              <div class="form-footer mt-4">
+                <div class="row justify-content-around align-items-center mt-5">
+                  <div class="col-5 text-center">
+                    <h6 class="text-color">24/7</h6>
+                    <p class="second-color">Support Available</p>
+                  </div>
+                  <div class="col-5 text-center">
+                    <h6 class="text-color"><1hr</h6>
+                    <p class="second-color">Average Response</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="pt-5 pb-5 ps-lg-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mt-3">
+            <div class="logo mb-4">
+              <i class="fa-solid fa-gamepad text-color p-lg-1"></i>
+              <span class="text-color"> GameArena</span>
+            </div>
+            <p class="mt-2">
+              The ultimate destination for competitive gaming, esports
+              tournaments, and gaming community.
+            </p>
+            <div class="social mt-3">
+              <a href="https://x.com" class="pe-3"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://facebook.com" class="pe-3"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://instagram.com" class="pe-3"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://youtube.com" class="pe-3"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://twitch.tv" class="pe-3"
+                ><i class="fa-brands fa-twitch"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mt-3">
+            <div class="games">
+              <h5 class="mb-4">Games</h5>
+              <a href="" class="d-block mt-2">ALORANT</a>
+              <a href="" class="d-block mt-2">League of Legends</a>
+              <a href="" class="d-block mt-2">CS:GO</a>
+              <a href="" class="d-block mt-2">Dota 2</a>
+              <a href="" class="d-block mt-2">Apex Legends</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mt-3">
+            <div class="games">
+              <h5 class="mb-4">Tournaments</h5>
+              <a href="" class="d-block mt-2">Upcoming Events</a>
+              <a href="" class="d-block mt-2">Live Matches</a>
+              <a href="" class="d-block mt-2">Results</a>
+              <a href="" class="d-block mt-2">Rankings</a>
+              <a href="" class="d-block mt-2">Schedule</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mt-3">
+            <div class="games">
+              <h5 class="mb-4">Support</h5>
+              <a href="" class="d-block mt-2">Help Center</a>
+              <a href="" class="d-block mt-2">Contact Us</a>
+              <a href="" class="d-block mt-2">Bug Reports</a>
+              <a href="" class="d-block mt-2">Feature Requests</a>
+              <a href="" class="d-block mt-2">Community Guidelines</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-last mt-5 pt-5">
+          <div class="row justify-content-between">
+            <div class="col-md-6 col-lg-6">
+              <p>© 2025 GameArena. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 col-lg-4 offset-lg-2">
+              <a href="" class="pe-2">Privacy Policy </a>
+              <a href="" class="pe-2">Terms of Service </a>
+              <a href="" class="pe-2">Cookie Policy </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
